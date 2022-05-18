@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Workcoin",
+  "version": "1.0",
+  "description": "Helps you focus and get things done!",
+  "icons": {
+    "16": "goldcoin.png",
+    "48": "goldcoin.png",
+    "128": "goldcoin.png"
+  },
+  "action": {
+    "default_icon": "goldcoin.png",
+    "default_title": "Workcoin",
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["storage", "alarms", "notifications"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

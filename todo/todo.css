@@ -1,0 +1,105 @@
+body {
+  height: 400px;
+  width: 350px;
+  background-color: skyblue;
+}
+
+.header {
+  display: flex;
+  height: 40px;
+  background-color: lightgreen;
+  margin: -8px;
+  padding: 5px;
+}
+
+#time {
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+  font-weight: normal;
+  color: whitesmoke;
+  position: relative;
+  top: 20px;
+}
+
+#min {
+  text-align: center;
+  font-size: 40px;
+  margin: 10px;
+  font-weight: normal;
+  color: whitesmoke;
+}
+
+#btn-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#btn-container > button {
+  color: skyblue;
+  background-color: whitesmoke;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 8px;
+  font-weight: bold;
+  width: 100px;
+  cursor: pointer;
+}
+
+#task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.task-input {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 5px 10px 5px 10px;
+  width: 200px;
+}
+
+.task-delete {
+  outline: none;
+  border: none;
+  height: 25px;
+  width: 25px;
+  border-radius: 4px;
+  color: skyblue;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+#footer {
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem; /* Footer height */
+  background-color: gray;
+}
+
+.footer-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 24px;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+#input-task {
+  float: center;
+  margin-top: 20px;
+}
